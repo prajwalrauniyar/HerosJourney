@@ -3,8 +3,6 @@
 """
 Created on Mon Nov 11 14:07:51 2019
 
-Project File for Intro. to AI
-
 @author: prajwalrauniyar
 """
 
@@ -17,7 +15,7 @@ rows, cols = 20, 20
 
 #Define the GOAL state here
 goal = (rows-1, cols-1)
-goal_reward = 7 #rows*cols*3
+goal_reward = rows*cols*3
 
 #Maximum cash that kalki can have when he spawns
 max_cash = rows + cols
