@@ -1,0 +1,71 @@
+README
+------
+# Author: Prajwal Rauniyar
+
+This is the README file for the script
+
+Environment:
+------------
+This code is writtn in/for Python 3.
+The environment should have the following packages/modules
+- numpy
+- matplotlib.pyplot
+- copy
+- itertools
+
+
+
+Running the Script
+------------------
+The script is a python script and can be run in the usual manner
+There are no command line parameters to be passed to the script
+
+$# python RunnerCode.py 
+
+
+
+Setting Parameters inside Script
+--------------------------------
+There are a number of parameters that can be set in the Script to change behaviour of script
+
+To run the Expectimax Tree and just get the result of the rewards the Agent gets set
+    Q_LEARNING = False
+To run the Q-Learning part and get the agent to the Goal set
+    Q_LEARNING = True
+    
+To see plot of Rewards or Q-Values (Whichever algo is set) set
+    plot_Q = True
+Else set
+    plot_Q = False
+    
+To set the Mean and StandardDev of an Asur's reward set
+    "MU_asur" and "STDDEV_asur
+    for default values (0 and 1) set them to None
+    
+To Alter the number of Holes in the board set the variable
+    "n_holes"
+    
+To alter the number of Asur's on the board set the variable
+    "n_asur"
+    
+To alter the Cost per step of the agent change the variable
+    "reg_call_reward"
+    
+To alter the number of iterations the Learning runs for change the variable
+    "num_iter"
+    
+To change the parameters \gamma and \alpha of Q-Learning set the variables
+    "gamma" and "alpha"
+    
+To set the Max and Min cash the agent begins with change
+    "max_cash" and "min_cash"
+    
+To alter the Goal coordinates on the board change
+    "goal"
+    
+To alter the Reward the agent gets at the Goal change
+    "goal_reward"
+    
+To alter the Board size change the following
+    "rows" and "cols"
+    to change the horizontal and vertical lengths
